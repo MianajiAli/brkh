@@ -7,13 +7,13 @@ export default function Features() {
             icon: "/svg/lock.ceeecd18.svg",
             title: "سایت بهینه و کدنویسی",
             description: "ما بهینه‌ترین و قدرتمندترین کدنویسی‌ها را برای سایت‌های شما ارائه می‌دهیم تا عملکرد بهتری داشته باشید و تجربه کاربری بی‌نظیری را فراهم کنید.",
-            previewImage: "/images/widgets-preview.png" // Optional, can add or leave it out per feature
+            previewImage: "/images/ss.png" // Optional, can add or leave it out per feature
         },
         {
             icon: "/svg/widgetIcon.ab3acf9d.svg",
             title: "کیفیت عالی و پشتیبانی",
             description: "ما به کیفیت پروژه‌های خود اهمیت می‌دهیم و پس از تحویل سایت، پشتیبانی کامل برای رفع هر گونه مشکل یا ارتقاء فراهم می‌کنیم.",
-            previewImage: "/images/widgets-preview.png" // Optional
+            previewImage: "/images/team.webp" // Optional
         },
         {
             icon: "/svg/brush.02cfb5e2.svg",
