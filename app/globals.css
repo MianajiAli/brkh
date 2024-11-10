@@ -23,3 +23,11 @@ body {
   margin: 0;
   line-height: inherit;
 }
+
+.bgGradient18 {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: #181b2a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(24, 27, 42, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: rgba(24, 27, 42, .4) var(--tw-gradient-to-position)
+}
