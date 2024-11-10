@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="flex justify-center items-center ">
                 <Image
                     alt="widgets"
-                    src={"/images/site.png"}
+                    src={"/brkh" + "/images/site.png"}
                     width={1000}
                     height={500}
                     quality={75}

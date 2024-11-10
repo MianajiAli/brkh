@@ -17,7 +17,7 @@ export default function TrustedBrands() {
             </h4>
             <div className="flex items-center gap-5 mt-2.5 md:mt-5 rounded-[14px] bg-white/5 px-2 md:px-4 md:gap-10">
                 {brands.map((brand, index) => (
-                    <BrandIcon key={index} src={brand.src} alt={brand.alt} href={brand.href} />
+                    <BrandIcon key={index} src={"/brkh" + brand.src} alt={brand.alt} href={brand.href} />
                 ))}
             </div>
         </div>

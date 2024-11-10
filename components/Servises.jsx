@@ -33,7 +33,7 @@ export default function WhatWeDo() {
                 {services.map(service => (
                     <div key={service.id} className="transition-all duration-500 transform hover:scale-105 hover:bg-gray-900 hover:shadow-lg rounded-xl bg-gradient-to-b from-gray-800/30 to-black/0 p-6 flex flex-col items-center text-center text-white">
                         <img
-                            src={service.icon}
+                            src={"/brkh" + service.icon}
                             alt={service.title}
                             className="w-16 h-16 mb-4 transform transition-all duration-300 hover:rotate-6"
                         />

@@ -38,7 +38,7 @@ export default function Feedback() {
                         <div className="w-full flex flex-row-reverse justify-between items-center mt-8">
                             <div className="flex flex-row-reverse items-center gap-3">
                                 <img
-                                    src={feedback.image}
+                                    src={"/brkh" + feedback.image}
                                     alt={feedback.name}
                                     className="w-10 text-xs flex justify-center items-center aspect-square rounded-full object-cover border-2 border-white/20"
                                 />
