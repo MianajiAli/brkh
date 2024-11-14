@@ -1,5 +1,7 @@
 // components/Feedback.jsx
 
+import Image from "next/image";
+
 export default function Feedback() {
     const feedbacks = [
         {
@@ -37,10 +39,14 @@ export default function Feedback() {
                         <p className="text-white/50 text-sm">{feedback.comment}</p>
                         <div className="w-full flex flex-row-reverse justify-between items-center mt-8">
                             <div className="flex flex-row-reverse items-center gap-3">
-                                <img
+                                <Image
                                     src={"/brkh" + feedback.image}
                                     alt={feedback.name}
                                     className="w-10 text-xs flex justify-center items-center aspect-square rounded-full object-cover border-2 border-white/20"
+                                    width={32}
+                                    height={32}
+                                    quality={75}
+                                    priority
                                 />
                                 <div className="text-left">
                                     <h4 className="text-sm font-medium text-white/90">{feedback.name}</h4>
