@@ -3,25 +3,25 @@
 export default function Feedback() {
     const feedbacks = [
         {
-            image: "/images/user1.jpg",
+            image: "/images/persons/person1.png",
             name: "Ali Rezaei",
             role: "Entrepreneur",
             comment: "تیم برکه به ما کمک کرد تا وبسایت کسب و کار خود را به شکل حرفه‌ای طراحی کنیم. طراحی زیبا و عملکرد عالی باعث شد تا تجربه مشتریان ما بهبود پیدا کنه. از خدماتشون کاملاً راضی هستیم و به همه توصیه می‌کنم."
         },
         {
-            image: "/images/user2.jpg",
+            image: "/images/persons/person2.png",
             name: "Maryam Abbasi",
             role: "E-commerce Business Owner",
             comment: "پس از همکاری با تیم برکه، وبسایت فروشگاهی‌ام خیلی بیشتر از قبل فروش داشت. تیم برکه نه تنها طراحی زیبا و کاربرپسند ایجاد کرد، بلکه به طور مداوم از من پشتیبانی می‌کنه. عالیه!"
         },
         {
-            image: "/images/user3.jpg",
+            image: "/images/persons/person3.png",
             name: "Hossein Kazemi",
             role: "Startup Founder",
             comment: "ما با تیم برکه برای طراحی وبسایتمان همکاری کردیم و نتیجه فراتر از انتظاراتمون بود. تیم با دقت به نیازهای ما گوش داد و یک وبسایت مدرن و سریع برای ما ساخت. تمام تیم از کار با این پروژه راضی بودن."
         },
         {
-            image: "/images/user4.jpg",
+            image: "/images/persons/person4.png",
             name: "Sima Mohammad",
             role: "Freelancer",
             comment: "به عنوان یک فریلنسر، برای اولین بار تصمیم گرفتم که یک وبسایت حرفه‌ای داشته باشم. تیم برکه به من کمک کرد که به راحتی وبسایت رو بسازم و به بهترین شکل آن را راه‌اندازی کنم. حالا من و مشتریانم تجربه فوق‌العاده‌ای از کار با وبسایت دارم!"
