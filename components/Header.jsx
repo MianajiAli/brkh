@@ -21,7 +21,7 @@ export default function Header() {
                     <div className="flex px-5 gap-2">
                         <Image src={"/brkh" + "/images/logo.png"}
                             width={32}
-                            height={32}
+                            height={36}
                             quality={75}
                             alt="brkh logo"
                             priority
