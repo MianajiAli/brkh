@@ -11,7 +11,7 @@ export default function TrustedBrands() {
     ];
 
     return (
-        <div className="flex flex-col items-center justify-center mt-16 md:mt-28 scale-125">
+        <div className="flex flex-col items-center justify-center mt-16 md:mt-28 ">
             <h4 className="text-white/30 uppercase text-[10px] md:text-base">
                 برند هایی که به ما اعتماد کرده اند :
             </h4>
