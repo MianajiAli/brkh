@@ -14,8 +14,11 @@ export default function Hero() {
                     className="absolute -top-96 -bottom-96 md:-bottom-10 right-0 left-0 -z-[1000]"
                 ></div>
 
-                <h1 className="text-[24px] md:text-5xl font-semibold tracking-tight text-center">
-                    مهم‌ترین ابزاری که برای رشد کسب و کارت نیاز داری
+                <h1 className="text-[26px] md:text-5xl font-semibold tracking-tight text-center">
+                    مهم‌ترین ابزاری که برای
+                    <br className='md:hidden' />
+                    <i> </i>
+                    رشد کسب و کارت نیاز داری
                 </h1>
                 <p className="text-white/60 text-xs text-center md:text-lg mt-2.5 md:mt-3.5 px-16">
                     سایت شما با طراحی جذاب و بهینه‌شده، بازدیدکنندگان را به مشتریان وفادار تبدیل می‌کند.

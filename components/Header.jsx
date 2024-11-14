@@ -9,7 +9,7 @@ export default function Header() {
 
     // Array for buttons with Persian text
     const buttons = [
-        { text: "مشاوره", className: "bg-gray-600" }, // "Help" in Persian
+        // { text: "مشاوره", className: "bg-gray-600" }, // "Help" in Persian
         { text: "تماس با ما", className: "bg-blue-600" },  // "Contact Us" in Persian
     ];
 
@@ -29,7 +29,7 @@ export default function Header() {
                         <span className="text-3xl  font-bold -translate-y-1">برکه</span> {/* "Baraka" in Persian */}
                     </div>
                     {/* Dynamically render nav links */}
-                    <nav className="flex gap-6">
+                    <nav className="flex gap-3 md:gap-6">
                         {navLinks.map((link, index) => (
                             <a
                                 key={index}
