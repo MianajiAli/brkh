@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const services = [
     {
         id: 1,
@@ -32,7 +34,11 @@ export default function WhatWeDo() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 px-4">
                 {services.map(service => (
                     <div key={service.id} className="transition-all duration-500 transform hover:scale-105 hover:bg-gray-900 hover:shadow-lg rounded-xl bg-gradient-to-b from-gray-800/30 to-black/0 p-6 flex flex-row justify-center items-center gap-3 h-full text-center text-white">
-                        <img
+                        <Image
+                            width={32}
+                            height={32}
+                            quality={75}
+                            priority
                             src={"/brkh" + service.icon}
                             alt={service.title}
                             className="w-16 h-16  transform transition-all duration-300 hover:rotate-6"
