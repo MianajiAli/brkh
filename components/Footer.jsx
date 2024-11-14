@@ -27,7 +27,16 @@ const Footer = () => {
             </div>
 
             <div className="rounded-b-[14px] md:rounded-b-[21px] bg-gradient-to-b from-white/5 to-transparent flex justify-center items-center p-3 text-[11px] md:text-sm text-white/30 shadow-[0_-15px_15px_0_rgba(0,0,0,0.07)]">
-                کپی رایت © تمام حقوق محفوظ است
+                <span>
+                    {/* کپی رایت © تمام حقوق محفوظ است */}
+                </span>
+                <span dir="ltr">
+                    ❤️ طراحی شده با
+                </span>
+                <pre> | </pre>
+                <span>
+                    نسخه بتا
+                </span>
             </div>
         </div>
     );
