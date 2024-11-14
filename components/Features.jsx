@@ -32,10 +32,10 @@ export default function Features() {
                 {features.map((feature, index) => (
                     <FeatureCard
                         key={index}
-                        icon={"brkh" + feature.icon}
+                        icon={"/brkh" + feature.icon}
                         title={feature.title}
                         description={feature.description}
-                        previewImage={"brkh" + feature.previewImage} // Pass as prop
+                        previewImage={"/brkh" + feature.previewImage} // Pass as prop
                     />
                 ))}
             </div>

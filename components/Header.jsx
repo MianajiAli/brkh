@@ -19,7 +19,7 @@ export default function Header() {
 
                 <div className="flex items-center gap-3">
                     <div className="flex px-5 gap-2">
-                        <Image src={"brkh" + "/images/logo.png"}
+                        <Image src={"/brkh" + "/images/logo.png"}
                             width={32}
                             height={32}
                             quality={75}
