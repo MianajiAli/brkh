@@ -1,6 +1,6 @@
 // components/Hero.jsx
 import Image from 'next/image';
-import Button from './Button';
+import Button from '../Button';
 
 export default function Hero() {
     return (
