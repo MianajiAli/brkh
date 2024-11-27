@@ -34,7 +34,7 @@ export default function Hero() {
                     height={500}
                     quality={75}
                     priority
-                    className="object-cover w-full scale-125 "
+                    className="object-cover w-full  "
                 />
             </div>
 
